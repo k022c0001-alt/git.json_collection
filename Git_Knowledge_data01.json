@@ -25,7 +25,7 @@
             "title": "ファイルの追加（ステージング）",
             "description": "作成したメモファイル（例: 01_git_basic.md）を、コミットの対象としてステージングエリアに追加します。",
             "commands": [
-                "git add 01_git_basic.md",
+                "git add .",
                 "git status"
             ]
         },
