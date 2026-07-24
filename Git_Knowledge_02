@@ -1,0 +1,50 @@
+{
+    "name": "Git Knowledge Entry 02",
+    "description": "AI時代におけるGitスキルの重要性と習得の4段階（アドバイス）",
+    "topic": "Git Learning Roadmap",
+    "keywords": [
+        "バージョン管理",
+        "merge",
+        "rebase",
+        "GitHub",
+        "GitHub Actions",
+        "チーム開発"
+    ],
+    "problem": {
+        "title": "Gitスキルの段階的な習得目標の理解",
+        "description": "Gitをどこまで、どのような順序で学べば実務やチーム開発で役立つのか、学習の全体像と目標を整理したい。"
+    },
+    "solutions": {
+        "step1": {
+            "title": "レベル1: バージョン管理としての基本利用",
+            "description": "自分自身の作業履歴を管理する基礎段階。変更を記録し、必要に応じて過去の状態に戻せるようにする。",
+            "commands": [
+                "git add",
+                "git commit",
+                "git log"
+            ]
+        },
+        "step2": {
+            "title": "レベル2: チームでのrebaseやマージ（merge）の熟知",
+            "description": "複数人の作業を安全に合流させる段階。コンフリクト（競合）の解消や、履歴を綺麗に保つためのrebaseとmergeの違いを理解し使い分ける。",
+            "commands": [
+                "git merge",
+                "git rebase"
+            ]
+        },
+        "step3": {
+            "title": "レベル3: GitHubのチーム利用",
+            "description": "GitHubのプラットフォームを活用し、Pull Request（プルリクエスト）やコードレビューを通じてチームで円滑に開発を進める。",
+            "commands": [
+                "git push",
+                "git pull",
+                "git fetch"
+            ]
+        },
+        "step4": {
+            "title": "レベル4: GitHub Actionsによる自動化（※発展編）",
+            "description": "テストやデプロイなどのチーム作業を自動化する仕組み。現状は必須ではないが、将来的なステップとして存在を把握しておく。",
+            "commands": []
+        }
+    }
+}
