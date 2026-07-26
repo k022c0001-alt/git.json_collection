@@ -1,4 +1,5 @@
 # git.json_collection
+"""
 src/
 ├── components/          # 画面の見た目（UIパーツ）を分ける場所
 │   ├── MapView.jsx          # 地図を表示する部品
@@ -14,3 +15,4 @@ src/
 │   └── snapshot.json        # データ本体
 │
 └── App.jsx              # 全体を組み上げる「司令塔」（コードは数十行で済む）
+"""
